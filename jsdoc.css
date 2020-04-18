@@ -1,0 +1,138 @@
+body{
+	display: block;
+	margin: 8px;
+	min-width: 290px;
+	color: #4d4e53;
+	background-color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+	overflow-x: hidden;
+
+
+}
+section{
+	font-size: 0.96em;
+}
+nav{
+	display: block;
+}
+
+header{
+	color: black;
+	margin: 10px;
+	text-align: left;
+	font-size: 1.8em;
+	font-weight: thin;
+	top: 0px;
+}
+#navbar>header{
+	text-align: center;
+}
+
+#navbar{
+position: fixed;
+min-width: 290px;
+top: 0px;
+left: 0px;
+width: 320px;
+height: 100%;
+border-right: solid;
+border-color: rgba(0, 22, 22, 0.4);
+
+}
+
+#navbar ul{
+	height: 88%;
+	padding: 0px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+@media only screen and (max-width: 815px){
+#navbar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+}
+}
+
+@media only screen and (max-width: 815px){
+#navbar ul {
+    border: 1px solid;
+    height: 207px;
+}
+}
+
+
+#navbar a{
+	display: block;
+	text-decoration: none;
+	padding: 10px 30px;
+	color: #4d4e53;
+	cursor: pointer;
+
+
+}
+
+
+
+
+#navbar li{
+	
+	border-top: 1px solid;
+	list-style: none;
+	position: relative;
+	width: 100%;
+	text-align: left;
+	font-weight: 550;
+  
+  
+}
+li{
+	display: list-item;
+}
+
+#main-doc{
+	margin-left: 330px;
+}
+#Introduction, #What_you_should_already_know, #JavaScript_and_Java, #Hello_world, #Variables,#Declaring_variables, #Variable_scope, #Global_variables, #Constants, #Data_types, #if...else_statement, #while_statement, #Function_declarations, #Reference {
+	padding-left: 30px;
+}
+
+p{
+	padding-left: 25px;
+}
+#Data_types> ul>li>p{
+	padding-left: 0px;
+}
+
+
+#Introduction ul, #What_you_should_already_know ul, #Data_types ul, #while_statement ul, #Function_declarations ul, #Reference ul{
+	width: 100%;
+	padding-left: 70px;
+	
+}
+code {
+    display: block;
+    text-align: left;
+    white-space: pre;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+ul {
+	display: block;
+	width: 320px;
+}
+
